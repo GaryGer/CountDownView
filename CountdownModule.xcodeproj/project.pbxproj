@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C244C0591F5E4C370071F014 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244C0581F5E4C370071F014 /* CountdownView.swift */; };
-		C2A527BE1F4FB46D0053837F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527BD1F4FB46D0053837F /* AppDelegate.swift */; };
-		C2A527C01F4FB46D0053837F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527BF1F4FB46D0053837F /* ViewController.swift */; };
-		C2A527C31F4FB46D0053837F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A527C11F4FB46D0053837F /* Main.storyboard */; };
-		C2A527C51F4FB46D0053837F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A527C41F4FB46D0053837F /* Assets.xcassets */; };
-		C2A527C81F4FB46D0053837F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A527C61F4FB46D0053837F /* LaunchScreen.storyboard */; };
 		C2A527D31F4FB46E0053837F /* CountdownModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527D21F4FB46E0053837F /* CountdownModuleTests.swift */; };
 		C2A527DE1F4FB46E0053837F /* CountdownModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527DD1F4FB46E0053837F /* CountdownModuleUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,12 +32,6 @@
 /* Begin PBXFileReference section */
 		C244C0581F5E4C370071F014 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		C2A527BA1F4FB46D0053837F /* CountdownModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A527BD1F4FB46D0053837F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2A527BF1F4FB46D0053837F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2A527C21F4FB46D0053837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2A527C41F4FB46D0053837F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2A527C71F4FB46D0053837F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C2A527C91F4FB46D0053837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2A527CE1F4FB46E0053837F /* CountdownModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A527D21F4FB46E0053837F /* CountdownModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownModuleTests.swift; sourceTree = "<group>"; };
 		C2A527D41F4FB46E0053837F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +88,7 @@
 		C2A527BC1F4FB46D0053837F /* CountdownModule */ = {
 			isa = PBXGroup;
 			children = (
-				C2A527BD1F4FB46D0053837F /* AppDelegate.swift */,
-				C2A527BF1F4FB46D0053837F /* ViewController.swift */,
 				C244C0581F5E4C370071F014 /* CountdownView.swift */,
-				C2A527C11F4FB46D0053837F /* Main.storyboard */,
-				C2A527C41F4FB46D0053837F /* Assets.xcassets */,
-				C2A527C61F4FB46D0053837F /* LaunchScreen.storyboard */,
-				C2A527C91F4FB46D0053837F /* Info.plist */,
 			);
 			path = CountdownModule;
 			sourceTree = "<group>";
@@ -238,9 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2A527C81F4FB46D0053837F /* LaunchScreen.storyboard in Resources */,
-				C2A527C51F4FB46D0053837F /* Assets.xcassets in Resources */,
-				C2A527C31F4FB46D0053837F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C244C0591F5E4C370071F014 /* CountdownView.swift in Sources */,
-				C2A527C01F4FB46D0053837F /* ViewController.swift in Sources */,
-				C2A527BE1F4FB46D0053837F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,25 +279,6 @@
 			targetProxy = C2A527DA1F4FB46E0053837F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C2A527C11F4FB46D0053837F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2A527C21F4FB46D0053837F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2A527C61F4FB46D0053837F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2A527C71F4FB46D0053837F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2A527E01F4FB46E0053837F /* Debug */ = {
