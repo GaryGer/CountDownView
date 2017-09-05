@@ -11,6 +11,8 @@ How To Use ？
 
 
   let view = CountDownView(view_X:"X坐标",view_Y:"Y坐标")
+  
   view.setActiveTimePeriods(starTime:"开始时间",endTime:"结束时间")
+  
   self.view.addSubviews(view)
   
