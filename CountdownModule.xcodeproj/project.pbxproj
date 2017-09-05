@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C244C0591F5E4C370071F014 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244C0581F5E4C370071F014 /* CountdownView.swift */; };
 		C2A527BE1F4FB46D0053837F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527BD1F4FB46D0053837F /* AppDelegate.swift */; };
 		C2A527C01F4FB46D0053837F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A527BF1F4FB46D0053837F /* ViewController.swift */; };
 		C2A527C31F4FB46D0053837F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A527C11F4FB46D0053837F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C244C0581F5E4C370071F014 /* CountdownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		C2A527BA1F4FB46D0053837F /* CountdownModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A527BD1F4FB46D0053837F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2A527BF1F4FB46D0053837F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				C2A527BD1F4FB46D0053837F /* AppDelegate.swift */,
 				C2A527BF1F4FB46D0053837F /* ViewController.swift */,
+				C244C0581F5E4C370071F014 /* CountdownView.swift */,
 				C2A527C11F4FB46D0053837F /* Main.storyboard */,
 				C2A527C41F4FB46D0053837F /* Assets.xcassets */,
 				C2A527C61F4FB46D0053837F /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C244C0591F5E4C370071F014 /* CountdownView.swift in Sources */,
 				C2A527C01F4FB46D0053837F /* ViewController.swift in Sources */,
 				C2A527BE1F4FB46D0053837F /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				C2A527E41F4FB46E0053837F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2A527E51F4FB46E0053837F /* Build configuration list for PBXNativeTarget "CountdownModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C2A527E71F4FB46E0053837F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2A527E81F4FB46E0053837F /* Build configuration list for PBXNativeTarget "CountdownModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C2A527EA1F4FB46E0053837F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
